@@ -165,8 +165,8 @@ const createCollegeButtonStyleMobile = {
   <Container>
     <Row className='d-flex justify-content-start'>
       <Col>
-        <div className='content container row back ms-5 mt-5'>
-          <div className='col-12 col-md-8 ml-2 text-left' style={isMobile ? titleStyleMobile : titleStyle}>
+        <div className='content container row back ms-0 ms-md-5 mt-5'>
+          <div className='col-12 col-md-8 ml-0  ml-md-2 text-left' style={isMobile ? titleStyleMobile : titleStyle}>
             <h1 className='title'>
               The Easy Way to Find the Perfect College for You
             </h1>
